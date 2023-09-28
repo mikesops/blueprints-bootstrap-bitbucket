@@ -1,0 +1,39 @@
+# hidden files and folders
+.*
+
+# vscode
+!.vscode/
+
+# docs
+!.docs/
+
+# git
+!.gitignore
+!.gitattributes
+!.gitkeep
+!.editorconfig
+
+# docker
+!.dockerignore
+
+# python
+__pycache__
+*.pyc
+!.python-version
+
+# terraform
+*.tfstate
+*.tfstate.*
+terraform.plan
+.terraform
+
+# node
+**/node_modules/
+!.npmrc
+!.releaserc.yaml
+
+# Github 
+!.github/
+
+# semantic-release
+!.releaserc
